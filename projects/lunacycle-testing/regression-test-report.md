@@ -62,23 +62,23 @@ The following existing features will be retested:
 
 | REG\_001 | Login with valid credentials | User logs in successfully |log in succesfully |Pass|
 
-| REG\_002 | Login with invalid credentials | Login is rejected with an error message | |  |
+| REG\_002 | Login with invalid credentials | Login is rejected with an error message | Log in rejected by saying "Invalid username or password."| Pass |
 
-| REG\_003 | Add a period record | Record is saved and displayed | Pending execution | Not Run |
+| REG\_003 | Add a period record | Record is saved and displayed |Record is saved and showed "Your period record was saved!" message |  Pass |
 
-| REG\_004 | Edit a period record | Updated information is displayed | Pending execution | Not Run |
+| REG\_004 | Edit a period record | Updated information is displayed | Updated information is displayed and showed notification "Your period record was updated!" |Pass |
 
-| REG\_005 | Delete a period record | Selected record is removed | Pending execution | Not Run |
+| REG\_005 | Delete a period record | Selected record is removed | Selecte record is delete and showed "Your period record was deleted." |Pass  |
 
-| REG\_006 | Validate an invalid date range | Application rejects an end date before the start date | Pending execution | Not Run |
+| REG\_006 | Validate an invalid date range | Application rejects an end date before the start date |Applicatio is rejected and said "The end date cannot be before the start date" |Pass  |
 
-| REG\_007 | View calendar | Recorded period dates appear correctly | Pending execution | Not Run |
+| REG\_007 | View calendar | Recorded period dates appear correctly |  Recorded period dates appear correctly|Pass  |
 
-| REG\_008 | View cycle predictions | Predictions are displayed when sufficient history exists | Pending execution | Not Run |
+| REG\_008 | View cycle predictions | Predictions are displayed when sufficient history exists |  Predictions are displayed when sufficient history exists| Pass|
 
-| REG\_009 | Save a symptom entry | Symptom entry is saved and displayed | Pending execution | Not Run |
+| REG\_009 | Save a symptom entry | Symptom entry is saved and displayed |System save with "Your daily journal entry was saved!" message  | Pass|
 
-| REG\_010 | View insights | Insights and charts load correctly | Pending execution | Not Run |
+| REG\_010 | View insights | Insights and charts load correctly |Insights and charts load correct | Pass|
 
 
 
@@ -88,13 +88,12 @@ The following existing features will be retested:
 
 \- Total Test Cases: 10
 
-\- Passed: 0
+\- Passed: 10
 
 \- Failed: 0
 
 \- Blocked: 0
 
-\- Not Run: 10
 
 
 
@@ -102,7 +101,7 @@ The following existing features will be retested:
 
 
 
-No new defects have been confirmed during this regression test cycle yet. Findings will be added after test execution.
+No new defects have been confirmed during this regression test cyclet.
 
 
 
@@ -110,7 +109,7 @@ No new defects have been confirmed during this regression test cycle yet. Findin
 
 
 
-The regression testing report will be finalized after all selected test cases have been executed and their actual results recorded.
+All the test were succesfully passed.
 
 
 
