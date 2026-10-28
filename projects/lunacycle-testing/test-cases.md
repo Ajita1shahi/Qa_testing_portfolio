@@ -46,7 +46,7 @@
   1. Enter an end date earlier than the start date.
   2. Submit the form.
 - Expected Result: The application should reject the invalid date range or display an appropriate validation message.
-- Actual Result: Appropriate message "The period start date cannot be in the future" occured.
+- Actual Result:- Actual Result: The application rejected the invalid date range and displayed the message "The end date cannot be before the start date."
 - Status: Pass
 
 ### TC_PERIOD_003 — Edit an Existing Period Record
